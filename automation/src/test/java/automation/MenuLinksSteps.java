@@ -1,4 +1,4 @@
-package automation;
+/*package automation;
 
 import org.openqa.selenium.By;
 
@@ -156,3 +156,4 @@ public class MenuLinksSteps extends BaseClass {
     
 
 }
+*/

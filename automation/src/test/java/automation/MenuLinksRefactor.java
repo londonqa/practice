@@ -1,26 +1,28 @@
 package automation;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 import cucumber.annotation.en.Then;
 import cucumber.annotation.en.When;
 import junit.framework.Assert;
 
-public class MenuLinksRefactor extends BaseClass {
+public class MenuLinksRefactor {
 
-
+WebDriver driver = null;
+	
 	HomePage homePage = null;
 	
-	@When("^i open the url$")
-	public void i_open_the_url() {
-		HomePage homePage = new HomePage(driver);
-		homePage.openUrl();		
-	}
-
-	@Then("^website loaded$")
-	public void website_loaded() {
-		homePage.checkPageLoaded();		
-	}
+//	@When("^i open the url$")
+//	public void i_open_the_url() {
+//		HomePage homePage = new HomePage(driver);
+//		homePage.openUrl();		
+//	}
+//
+//	@Then("^website loaded$")
+//	public void website_loaded() {
+//		homePage.checkPageLoaded();		
+//	}
 
 	@When("^i click right hand home links$")
 	public void i_click_right_hand_home_links() {

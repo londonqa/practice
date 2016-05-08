@@ -1,4 +1,4 @@
-@menulinks
+@all @menulinks
 Feature:Menu Links
 
 	Background:

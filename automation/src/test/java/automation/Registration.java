@@ -13,9 +13,13 @@ import cucumber.annotation.en.When;
 
 
 
-public class Registration extends BaseClass{
+public class Registration {
+	WebDriver driver = null;
 	
-	
+	@Given("^open firefox browser$")
+	public void open_firefox_browser() {
+	    driver = new FirefoxDriver();
+	}
 
 	@When("^i open the url$")
 	public void i_open_the_url() {

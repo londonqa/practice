@@ -1,4 +1,4 @@
-@registration
+@all @registration
 Feature:Registration form
 
 	Scenario:1 Registring user with all fields  Blank Characters
